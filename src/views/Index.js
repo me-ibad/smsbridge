@@ -166,13 +166,13 @@ export default function Index() {
   }, []);
   return (
     <>
-      <IndexNavbar fixed />
-      <section className="header relative pt-1 mt-28 items-center ">
+      {/* <IndexNavbar fixed /> */}
+      <section className="header bg relative pt-1 mt-10 items-center ">
         <div className="container mx-auto items-center flex flex-wrap">
           <div className="w-full ">
-            <div className="">
+            <div className="mt-28">
               <h2 className="font-semibold text-4xl text-gray-700">
-                Send bulk sms using sms bridge
+                Send bulk sms using Mass Marketing
               </h2>
               {/* <p className="mt-4 text-lg leading-relaxed text-gray-600">
                 Notus React is Free and Open Source. It does not change or add
@@ -351,7 +351,7 @@ export default function Index() {
       <br />
       <br />
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

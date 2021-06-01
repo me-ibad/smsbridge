@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 // components
 
-import Navbar from "components/Navbars/AuthNavbar.js";
-import Footer from "components/Footers/Footer.js";
+import Navbar from "components/Navbars/IndexNavbar.js";
+import Footer from "components/Footers/FooterSmall.js";
 
 export default function Landing() {
   return (
@@ -16,12 +16,12 @@ export default function Landing() {
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
               backgroundImage:
-                "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')",
+                "url('https://image.freepik.com/free-photo/businessman-analyzing-company-financial-report-with-augmented-reality-graphics_34141-360.jpg')",
             }}
           >
             <span
               id="blackOverlay"
-              className="w-full h-full absolute opacity-75 bg-black"
+              className="w-full h-full absolute opacity-50 bg-black"
             ></span>
           </div>
           <div className="container relative mx-auto">
@@ -29,12 +29,11 @@ export default function Landing() {
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
                   <h1 className="text-white font-semibold text-5xl">
-                    Your story starts with us.
+                    COMMUNICATE WITH YOUR AUDIENCE
                   </h1>
                   <p className="mt-4 text-lg text-gray-300">
-                    This is a simple example of a Landing Page you can build
-                    using Notus React. It features multiple CSS components based
-                    on the Tailwind CSS design system.
+                    Email and SMS has an ability many channels don’t: creating
+                    valuable, personal touches – at scale
                   </p>
                 </div>
               </div>
@@ -68,12 +67,13 @@ export default function Landing() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
-                      <i className="fas fa-award"></i>
+                      <i className="fas fa-sms"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Awarded Agency</h6>
+                    <h6 className="text-xl font-semibold">SMS</h6>
                     <p className="mt-2 mb-4 text-gray-600">
-                      Divide details about your product or agency work into
-                      parts. A paragraph describing a feature will be enough.
+                      Provide Bulk sms to any country on all network with
+                      confirm delivery. SMS pricing is based on the destination
+                      and type of message you’re sending
                     </p>
                   </div>
                 </div>
@@ -83,12 +83,14 @@ export default function Landing() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
-                      <i className="fas fa-retweet"></i>
+                      <i className="fas fa-envelope-open"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Free Revisions</h6>
+                    <h6 className="text-xl font-semibold">Email</h6>
                     <p className="mt-2 mb-4 text-gray-600">
-                      Keep you user engaged by providing meaningful information.
-                      Remember that by this time, the user is curious.
+                      Easy-to-use all-in-one e-mail platform. with our
+                      transactional and marketing e-mail solution, it’s never
+                      been easier to send bulk email into the inbox in cheap
+                      rates.
                     </p>
                   </div>
                 </div>
@@ -98,12 +100,14 @@ export default function Landing() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
-                      <i className="fas fa-fingerprint"></i>
+                      <i className="fab fa-whatsapp"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Verified Company</h6>
+                    <h6 className="text-xl font-semibold">WhatsApp</h6>
                     <p className="mt-2 mb-4 text-gray-600">
-                      Write a few lines about each one. A paragraph describing a
-                      feature will be enough. Keep you user engaged!
+                      WhatsApp is an app solution that eliminates expensive SMS
+                      texting fees. Instead of paying crazy data fees, you can
+                      use WhatsApp and send messages for free to anyone in the
+                      world.
                     </p>
                   </div>
                 </div>
@@ -119,26 +123,23 @@ export default function Landing() {
                   Working with us is a pleasure
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-                  Don't let your uses guess by attaching tooltips and popoves to
-                  any element. Just make sure you enable them first via
-                  JavaScript.
+                  Our easy to use environment provide service to the businesses
+                  of all sizes with an opportunity to market their brand 24/7 at
+                  a low cost.
                 </p>
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
-                  The kit comes with three pre-built pages to help you get
-                  started faster. You can change the text and images and you're
-                  good to go. Just make sure you enable them first via
-                  JavaScript.
+                  From startups to medium-sized enterprises to multiple-location
+                  companies, a digital marketing company helps you expand your
+                  niche market reach to offer goods and services to your target
+                  customers, irrespective of time differences or location.
                 </p>
-                <Link to="/" className="font-bold text-gray-800 mt-8">
-                  Check Notus React!
-                </Link>
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blue-600">
                   <img
                     alt="..."
-                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
+                    src="https://image.freepik.com/free-photo/social-media-instagram-digital-marketing-concept-3d-rendering_106244-1717.jpg"
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">
@@ -157,9 +158,10 @@ export default function Landing() {
                       Top Notch Services
                     </h4>
                     <p className="text-md font-light mt-2 text-white">
-                      The Arctic Ocean freezes every winter and much of the
-                      sea-ice then thaws every summer, and that process will
-                      continue whatever happens.
+                      We don’t limit ourselves to specific industries. Thrive
+                      has the experience and professionals to build a custom
+                      website and use multiple digital marketing services to
+                      assist any size company in any industry.
                     </p>
                   </blockquote>
                 </div>
@@ -203,24 +205,23 @@ export default function Landing() {
                   <div className="text-blue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-blue-300">
                     <i className="fas fa-rocket text-xl"></i>
                   </div>
-                  <h3 className="text-3xl font-semibold">A growing company</h3>
+                  <h3 className="text-3xl font-semibold">A Encodersoft</h3>
                   <p className="mt-4 text-lg leading-relaxed text-gray-600">
-                    The extension comes with three pre-built pages to help you
-                    get started faster. You can change the text and images and
-                    you're good to go.
+                    Our parent company provide best solution to promote your
+                    Business. We provide services that focused towards helping
+                    you in delivering better quality services but in a very cost
+                    effective way with accurate processes and latest technology
                   </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">
                       <div className="flex items-center">
                         <div>
                           <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blue-600 bg-blue-200 mr-3">
-                            <i className="fas fa-fingerprint"></i>
+                            <i className="fas fa-laptop"></i>
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-gray-600">
-                            Carefully crafted components
-                          </h4>
+                          <h4 className="text-gray-600">Website Development</h4>
                         </div>
                       </div>
                     </li>
@@ -228,13 +229,11 @@ export default function Landing() {
                       <div className="flex items-center">
                         <div>
                           <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blue-600 bg-blue-200 mr-3">
-                            <i className="fab fa-html5"></i>
+                            <i className="fas fa-mobile"></i>
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-gray-600">
-                            Amazing page examples
-                          </h4>
+                          <h4 className="text-gray-600">App Development</h4>
                         </div>
                       </div>
                     </li>
@@ -246,18 +245,25 @@ export default function Landing() {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-gray-600">Dynamic components</h4>
+                          <h4 className="text-gray-600">Digital Marketing</h4>
                         </div>
                       </div>
                     </li>
                   </ul>
+                  <a
+                    href="https://www.encodersoft.co/"
+                    target="_blank"
+                    className="font-bold text-gray-800 mt-8"
+                  >
+                    Visit
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="pt-20 pb-48">
+        {/* <section className="pt-20 pb-48">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
@@ -412,7 +418,7 @@ export default function Landing() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section className="pb-20 relative block bg-gray-900">
           <div
@@ -438,14 +444,14 @@ export default function Landing() {
           <div className="container mx-auto px-4 lg:pt-24 lg:pb-64">
             <div className="flex flex-wrap text-center justify-center">
               <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold text-white">
+                {/* <h2 className="text-4xl font-semibold text-white">
                   Build something
                 </h2>
                 <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
                   Put the potentially record low maximum sea ice extent tihs
                   year down to low ice. According to the National Oceanic and
                   Atmospheric Administration, Ted, Scambos.
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="flex flex-wrap mt-12 justify-center">
